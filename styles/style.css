@@ -1,6 +1,3 @@
-body {
-}
-
 body .arabic {
 font-family: "Noto Sans Arabic", sans-serif;
 }
@@ -63,12 +60,27 @@ header a {
     margin: 40px 30px;
 }
 
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.youtube {
+    color: #9e747f;
+}
+
+.two-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+text-align: center;
+grid-gap: 0;
+}
+
 footer {
 background-color: #9e747f;
 color: white;
 padding: 30px 60px;
 }
-
 
 footer li {
     list-style: none;
@@ -87,11 +99,12 @@ footer p {
     opacity: 0.7;
 }
 
-.grid{
+.footer-grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 64px;
 }
+
 @media (max-width: 960) {
     
 }
