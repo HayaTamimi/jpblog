@@ -63,6 +63,35 @@ header a {
     margin: 40px 30px;
 }
 
-@media (max-width: 900) {
+footer {
+background-color: #9e747f;
+color: white;
+padding: 30px 60px;
+}
+
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+footer p {
+    font-size: small;
+    opacity: 0.7;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 64px;
+}
+@media (max-width: 960) {
     
 }
