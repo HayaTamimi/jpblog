@@ -1,0 +1,68 @@
+body {
+}
+
+body .arabic {
+font-family: "Noto Sans Arabic", sans-serif;
+}
+
+body .eng {
+font-family: "Poppins", sans-serif;
+}
+
+body .jap {
+font-family: "Noto Sans JP", sans-serif;
+
+}
+
+.container {
+    max-width: 1400%;
+    margin: 0 auto;
+}
+
+
+header {
+background-image: linear-gradient(rgba(227, 185, 201, 0.488), rgba(55, 22, 38, 0.4)), url(../styles/imgs/hero.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+text-align: center;
+padding: 30px;
+}
+
+header .eng {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+header .arabic {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+header .jap {
+  font-weight: 800;
+  letter-spacing: 10px;
+  font-style: normal;
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+header a {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: white;
+    color: palevioletred;
+    padding: 16px 32px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 40px 30px;
+}
+
+@media (max-width: 900) {
+    
+}
